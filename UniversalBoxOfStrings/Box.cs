@@ -9,7 +9,7 @@ namespace UniversalBoxOfStrings
     public class Box<T>
     {
         private T data;
-        public T Value
+        public T Data
         {
             get { return data; }
             set { data = value; }
